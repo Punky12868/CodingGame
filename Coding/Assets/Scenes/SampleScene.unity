@@ -320,7 +320,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 105.60073, y: 0, z: 0, w: 239.6176}
+  m_margin: {x: 105.60073, y: 0, z: 0, w: -1.5211029}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -488,11 +488,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7248aa740fec8f349a945535fb2fc1e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  panel: {fileID: 1296649398}
   startButton: {fileID: 1280437975}
   restartButton: {fileID: 1564062812}
+  panel: {fileID: 1296649398}
   textInputPlaceHolder: {fileID: 1468015713}
+  yButtonPos: 9
+  yInputPos: 5.5
   speed: 5
+  speedSecond: 0.75
 --- !u!114 &191577843
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -834,7 +837,7 @@ GameObject:
   - component: {fileID: 487590346}
   m_Layer: 5
   m_Name: Restart
-  m_TagString: Untagged
+  m_TagString: RestartB
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1924,7 +1927,7 @@ GameObject:
   - component: {fileID: 1049094163}
   m_Layer: 5
   m_Name: InputField (TMP)
-  m_TagString: Untagged
+  m_TagString: InputField
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1948,8 +1951,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 20.96997, y: -101.45001}
-  m_SizeDelta: {x: -157.96, y: 5.8215}
+  m_AnchoredPosition: {x: 20.96997, y: 21.51001}
+  m_SizeDelta: {x: -157.96, y: -240.09}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1049094163
 MonoBehaviour:
@@ -2584,7 +2587,7 @@ GameObject:
   - component: {fileID: 1445960926}
   m_Layer: 5
   m_Name: Start
-  m_TagString: Untagged
+  m_TagString: StartB
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2854,7 +2857,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 238.07167}
+  m_margin: {x: 0, y: 0, z: 0, w: 0.5865631}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -3260,8 +3263,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: -28, y: 142.22}
-  m_SizeDelta: {x: 24.06, y: -284.44}
+  m_AnchoredPosition: {x: -34, y: 0}
+  m_SizeDelta: {x: 24.06, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1689896178
 MonoBehaviour:

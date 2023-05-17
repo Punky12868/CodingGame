@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - Dash
+  - InputField
+  - StartB
+  - RestartB
   layers:
   - Default
   - TransparentFX
